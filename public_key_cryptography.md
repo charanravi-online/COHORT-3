@@ -26,3 +26,10 @@ It is the standard unit of data used to represent a single characeter in memory.
 ## string to binary
 according to the ascii values, each character gets converted to a byte.
 
+## base64
+base64 encoding uses 64 different characters (A-Z, a-z, 0-9,+,/), means each character can represent one of 64 possible values.
+
+## base58
+It is similar to base64 but uses a different set of characters to avoid viaually similar characters and to make the encoded output more use friendly.
+base58 uses 58 different characters: A-Z (excluding I and O), a-z (excluding l), 1-9 (excluding 0)
+
